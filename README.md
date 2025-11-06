@@ -1,9 +1,9 @@
 # 🛡️ Edit-Guardian — Telegram Protection Bot
 
-**Edit-Guardian** is a modular Telegram protection bot built to keep your groups safe, smart, and automated.  
-It uses multiple plugin modules to handle group moderation, anti-abuse protection, auto-deletion, imposter detection, and admin automation.
+*__**Edit-Guardian** is a modular Telegram protection bot built to keep your groups safe, smart, and automated.__*  
+**It uses multiple plugin modules to handle group moderation, anti-abuse protection, auto-deletion, imposter detection, and admin automation.**
 
-> Built with Python — fully modular, configurable, and ready for deployment.
+_> Built with Python — fully modular, configurable, and ready for deployment._
 
 ---
 
@@ -38,11 +38,11 @@ Here’s what each major plugin does:
 
 ## ⚙️ Configuration
 
-All configuration (API tokens, MongoDB, etc.) is managed in:
+**All configuration (API tokens, MongoDB, etc.) is managed in:**
 
-Anonymous/config.py
+**Anonymous/config.py**
 
-Open this file and set the following variables:
+_Open this file and set the following variables:_
 
 ```python
 API_ID = "your_api_id"
@@ -56,8 +56,7 @@ MONGO_URL = "your_mongo_connection_string"
 # OWNER_ID, SUDO_USERS, LOG_CHANNEL, etc.
 
 > You can customize database, logging, and filter settings directly in config.py.
-
-
+```
 
 
 ---
@@ -86,6 +85,7 @@ MONGO_URL = "your_mongo_connection_string"
 
 ## 🗂️ Project Structure
 
+```bash
 Edit-Guardian/
 │
 ├── Anonymous/
@@ -101,7 +101,7 @@ Edit-Guardian/
 ├── LICENSE                   # License file
 └── README.md                 # You are here 😄
 
-
+```
 ---
 
 ## 🛠️ Installation
@@ -111,30 +111,30 @@ Edit-Guardian/
 ```bash
 git clone https://github.com/hasnainkk-07/Edit-Guardian.git
 cd Edit-Guardian
-
+```
 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 3️⃣ Edit configuration
 
-Open Anonymous/config.py and set:
+```Open Anonymous/config.py and set:
 
 API_ID, API_HASH, BOT_TOKEN
 
 Optional: MONGO_URL, OWNER_ID, LOG_CHANNEL
-
+```
 
 4️⃣ Run the bot
 
 ```bash
 python3 -m Anonymous
-
+```
 
 ---
 
-##.☁️ Deployment
+## ☁️ Deployment
 
 Edit-Guardian supports Heroku, or Docker deployment out-of-the-box.
 
@@ -163,7 +163,7 @@ Optionally, you can manage plugin loading via the plugin loader (if included in 
 
 ## 📜 Commands (Examples)
 
-> Actual command names depend on plugin code. These are typical examples:
+_> Actual command names depend on plugin code. These are typical examples:_
 
 
 
